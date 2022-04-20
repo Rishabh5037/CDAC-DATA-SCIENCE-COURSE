@@ -1,0 +1,10 @@
+import os
+F=open("docs4.txt",'r')
+b=F.readlines()
+print(b)
+b.sort()
+# print(b)
+F.close()
+z=open("docs4.txt",'w')
+z.writelines(b)
+z.close( )
